@@ -1,5 +1,5 @@
 ## Demo 
-(wip) https://jasheloper.github.io/color-choices/
+https://jasheloper.github.io/color-choices/
 
 ##  Objective
 
