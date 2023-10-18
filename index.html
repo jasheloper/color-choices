@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h2>Live output</h2>
+<h2>Colors Demo</h2>
 
 <div class="output" style="height: 300px;">
   <label for="theme">Select theme: </label>
@@ -29,6 +29,22 @@
     select.addEventListener('change', () => {
     const choice = select.value;
         // ADD SWITCH STATEMENT
+            switch (choice){
+                case "black": 
+                    update("black", "white");
+                break;
+                case "purple":
+                    update("purple", "white");
+                break;
+                case "yellow": 
+                    update("yellow", "black");
+                break;
+                case "psychedelic":
+                    update("red", "yellow");
+                break;
+                default: 
+                    update("white", "black")
+            }
     });
 
     function update(bgColor, textColor) {
